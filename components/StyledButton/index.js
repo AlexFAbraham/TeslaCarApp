@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
         color: "white",
         textTransform: 'uppercase'
     }
+   
 });
 
 //make this component available to the app

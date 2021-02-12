@@ -15,6 +15,8 @@ const CarItem= (props) =>{
             <Text style={styles.subtitle}>Starting at $69,420</Text>
           </View>
 
+          <View style={styles.buttonsContainer}>
+
           <StyledButtons type="primary" 
                          content={"Custom Order  "}
                           onPress={()=> {
@@ -24,7 +26,9 @@ const CarItem= (props) =>{
                          content={"Existing Inventory  "}
                           onPress={()=> {
                             console.warn("Existing Inventory was pressed");
-                          }}/>                
+                          }}/>      
+          </View>
+                    
          
       </View>
         )
