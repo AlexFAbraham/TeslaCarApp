@@ -31,6 +31,9 @@ const styles = StyleSheet.create({
       position: 'absolute',
       bottom: '10%',
       width: '100%'
+  },
+  subtitleCTA:{
+    textDecorationLine: 'underline'
   }
 });
 
